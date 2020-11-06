@@ -16,10 +16,22 @@ export default {
 };
 </script>
 <style lang="css">
-#app {
-  text-align: center;
+body {
+  height: 100vh;
   display: grid;
   place-items: center;
+}
+#app {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  align-content: center;
+
+  width: 500px;
+  position: relative;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
 }
 </style>
 

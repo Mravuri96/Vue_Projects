@@ -1,6 +1,6 @@
 <template>
   <section>
-    <input v-model="msg" v-on:input="reverse" />
+    <input v-model="msg" v-on:input="reverse" placeholder="Enter text here ..."/>
     <h1>{{ reverse }}</h1>
   </section>
 </template>
@@ -20,4 +20,13 @@ export default {
   },
 };
 </script>
+
+<style lang="css" scoped>
+input {
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
+  font-size: 1.5rem;
+}
+</style>
 
