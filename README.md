@@ -2,7 +2,6 @@
 
 ## Preview: [ Here](https://vue-learn-d5108.web.app)
 
-
 ## Project setup
 
 ```
