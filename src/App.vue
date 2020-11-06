@@ -28,7 +28,6 @@ body {
   place-items: center;
   justify-content: center;
   align-content: center;
-
   width: 500px;
   position: relative;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
